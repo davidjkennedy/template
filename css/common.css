@@ -16,7 +16,7 @@ html {
   list-style-type: none;
 }
 
-nav > li {
+ul li {
   display: inline-block;
 }
 .nav-top {
