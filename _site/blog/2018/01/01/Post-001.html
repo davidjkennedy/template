@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Portfolio site for David Kennedy</title>
-  <link rel="stylesheet" href="{{site.baseurl}}/css/common.css">
+  <link rel="stylesheet" href="/css/common.css">
   <script src="https://use.fontawesome.com/abaa5d79c3.js"></script>
   <!-- <link rel="stylesheet" href="../css/resumestyle.css"> -->
   <link href="https://fonts.googleapis.com/css?family=Caveat|Open+Sans" rel="stylesheet">
@@ -15,10 +15,34 @@
 <body class="default-body">
   <header>
     <h1>David Kennedy</h1>
-    {% include nav.html navclass='nav-top'%}
+    <nav>
+  <ul class="nav nav-top">
+    <li><a href="/index.html" class="">Home</a></li>
+    <li><a href="/blog.html" class="">Blog</a></li>
+    <li><a href="/resume.html" class="">Resume</a></li>
+    <li><a href="/about.html" class="">About</a></li>
+  </ul>
+  <hr>
+</nav>
+
   </header>
 
-  {{ content }}
+  <h1>Awesome Project 01</h1>
+
+<img src="/img/https://images.unsplash.com/photo-1518815068914-038920b6f0c6?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=d49484a605f03af73006b3c040fc448b" alt="image of Awesome Project 01">
+<dl>
+  <dt>Role:</dt><dd>role:Editor</dd>
+  <dt>Client:</dt><dd>client:Chiat-day</dd>
+  <dt>Media:</dt><dd>media:HD Video</dd>
+</dl>
+<p>The Jekyll gem makes a jekyll executable available to you in your terminal.</p>
+
+<p>You can use this command in a number of ways:</p>
+
+<p>jekyll new - Creates a new Jekyll site scaffold
+jekyll build or jekyll b - Performs a one off build your site to ./ _site (by default)</p>
+
+
 
   <footer>
         <hr>

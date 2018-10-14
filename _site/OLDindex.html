@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Portfolio site for David Kennedy</title>
-  <link rel="stylesheet" href="{{site.baseurl}}/css/common.css">
+  <link rel="stylesheet" href="/css/common.css">
   <script src="https://use.fontawesome.com/abaa5d79c3.js"></script>
   <!-- <link rel="stylesheet" href="../css/resumestyle.css"> -->
   <link href="https://fonts.googleapis.com/css?family=Caveat|Open+Sans" rel="stylesheet">
@@ -15,10 +15,37 @@
 <body class="default-body">
   <header>
     <h1>David Kennedy</h1>
-    {% include nav.html navclass='nav-top'%}
+    <nav>
+  <ul class="nav nav-top">
+    <li><a href="/index.html" class="">Home</a></li>
+    <li><a href="/blog.html" class="">Blog</a></li>
+    <li><a href="/resume.html" class="">Resume</a></li>
+    <li><a href="/about.html" class="">About</a></li>
+  </ul>
+  <hr>
+</nav>
+
   </header>
 
-  {{ content }}
+    <h1>Jekyll Theme</h1>
+  <p>Starting a theme from scratch is great</p>
+
+  <h2>Recently Discovered Planets</h2>
+
+<ul>
+  
+  <li>
+    <a href="">Post 005</a>
+    <p>here is the fifth Post</p>
+  </li>
+  
+  <li>
+    <a href="">Post 004</a>
+    <p>here is the forth Post</p>
+  </li>
+  
+</ul>
+
 
   <footer>
         <hr>

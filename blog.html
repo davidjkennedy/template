@@ -1,0 +1,54 @@
+---
+layout: default
+---
+
+<h1>Blog</h1>
+
+<h2></h2>
+
+
+
+
+<ul>
+  {% for blog in site.categories.blog %}
+  <li>
+    <a href="{{site.baseurl}}{{blog.url}}">{{blog.title}}</a>
+    <p>{{blog.meta}}</p>
+  </li>
+  {% endfor %}
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <ul>
+  {% for blog in site.categories.blog  limit:3 %}
+  <li>
+    <a href="{{baseurl}}{{blog.url}}}">{{blog.title}}</a>
+    <li>{{blog.meta}}</li>
+    <img src="{{site.baseurl}}/img/{{page.image}}" alt="">
+  </li>
+  {% endfor %}
+</ul> -->
+
+<!-- <ul>
+  {% for blog in site.categories.project  limit:3 %}
+  <li>
+    <a href="">{{site.baseurl}}{{project.title}}</a>
+    <li>{{project.meta}}</li>
+    <img src="{{site.baseurl}}/img/{{page.image}}" alt="">
+  </li>
+  {% endfor %}
+</ul> -->
